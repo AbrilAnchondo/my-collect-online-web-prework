@@ -5,6 +5,7 @@ def my_collect(array)
      yield
      i += 1 
   end
+  return array
 end
 
 my_collect(languages) do |lang|
