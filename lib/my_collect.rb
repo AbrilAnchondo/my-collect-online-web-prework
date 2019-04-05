@@ -4,12 +4,12 @@ def my_collect(array)
      yield array[i]
      i += 1 
   end
- return array
+
 end
 
 
 languages = []
 my_collect(languages) do |lang|
-
   lang.upcase
+  return languages
 end
