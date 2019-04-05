@@ -1,5 +1,5 @@
 def my_collect(array)
-  array = []
+  
   i = 0 
   while i < array.length 
      yield array[i]
@@ -11,7 +11,7 @@ end
 
 
 
-my_collect(array) do |lang|
+my_collect(["ruby", "javascript", "python", "objective-c"]) do |lang|
  languages << lang.upcase
 
 end
