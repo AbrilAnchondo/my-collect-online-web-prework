@@ -1,10 +1,10 @@
-def my_collect(languages)
+def my_collect(array)
   i = 0
-  while i < languages.length 
+  while i < array.length 
     yield 
     i += 1 
   end
- languages
+ 
 end 
 
 my_collect(languages) do |lang|
