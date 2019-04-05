@@ -10,6 +10,6 @@ end
 
 languages = []
 my_collect(languages) do |lang|
-  languages.push(lang.upcase)
+ lang.upcase
  
 end
