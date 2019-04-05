@@ -9,8 +9,8 @@ def my_collect(array)
 end
 
 
-languages = []
-my_collect(languages) do |lang|
+
+my_collect(array) do |lang|
  languages << lang.upcase
 
 end
