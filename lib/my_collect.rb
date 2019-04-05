@@ -12,6 +12,6 @@ end
 
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |lang|
- languages << lang.upcase
+lang.upcase
 
 end
