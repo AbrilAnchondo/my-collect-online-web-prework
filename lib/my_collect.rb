@@ -4,7 +4,7 @@ def my_collect(languages)
     yield 
     i += 1 
   end
- 
+ languages
 end 
 
 my_collect(languages) do |lang|
