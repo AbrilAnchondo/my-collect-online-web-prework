@@ -4,10 +4,10 @@ def my_collect(array)
     yield 
     i += 1 
   end
-  array 
+ 
 end 
 
-my_collect() do |item|
+my_collect(languages) do |item|
   item.upcase 
 
 end
