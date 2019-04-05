@@ -5,12 +5,12 @@ def my_collect(array)
      i += 1 
     
   end
-
+ return array
 end
 
 
 languages = []
 my_collect(languages) do |lang|
  lang.upcase
- languages
+
 end
