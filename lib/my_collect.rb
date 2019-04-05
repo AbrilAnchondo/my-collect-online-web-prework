@@ -1,4 +1,4 @@
-def my_collect(array)
+def my_collect(languages)
   i = 0
   while i < array.length 
     yield 
@@ -7,3 +7,6 @@ def my_collect(array)
  
 end 
 
+my_collect(languages) do |lang|
+  lang.upcase
+end
